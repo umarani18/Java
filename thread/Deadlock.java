@@ -16,7 +16,7 @@ public class Deadlock{
         }
     }
     public static void main(String args[]) throws InterruptedException{
-        //if join is rmoeved it lead to deadlock
+        //if join is removed, it lead to deadlock
         final Friend a = new Friend("Alphonse");
         final Friend b = new Friend("Gaston");
 
