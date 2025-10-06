@@ -18,7 +18,7 @@ public class Writing{
         }
     }
     public static void usingFileOutputStream(){
-        String content="This is some conent in the new file";
+        String content="This is some content in the new file";
         try(FileOutputStream fos=new FileOutputStream("output.txt")){
             fos.write(content.getBytes());
             System.out.println("Successfully written in file");
