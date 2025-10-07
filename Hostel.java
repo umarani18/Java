@@ -7,8 +7,7 @@ public class Hostel {
     }
     
     public static void print() {
-        //System.out.println(s + " static print " + k); //original
-        System.out.println(s + " static print " + Hostel.k); //ans`wer
+        System.out.println(s + " static print " + k); 
     }
     
     static {
@@ -32,7 +31,7 @@ public class Hostel {
     }
     
     static int k = 5;
-    int j;
+    int j;  
     
     static {
         System.out.println(s + "- static -" + k);
